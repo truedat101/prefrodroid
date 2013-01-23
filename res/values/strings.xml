@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PFActivity</string>
+	<string name="pf_prefs_label">PF</string>
+	<string name="pf_prefs_category_label">PF Category</string>
+	<string name="pf_dfkey_active_vibrate_title">PF Vibrate</string>
+	<string name="pf_dfkey_active_vibrate_summary">Vibrate ON</string>
+</resources>

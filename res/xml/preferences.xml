@@ -1,0 +1,11 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:pf="http://schemas.android.com/apk/res/com.prefdroid"
+		android:title="@string/pf_prefs_label"
+		android:key="pf">
+	<PreferenceCategory android:title="@string/pf_prefs_category_label">
+		<CheckBoxPreference 
+			android:title="@string/pf_dfkey_active_vibrate_title"
+			android:key="pf_dfkey_active_vibrate"
+			android:summary="@string/pf_dfkey_active_vibrate_summary" />
+	</PreferenceCategory>
+</PreferenceScreen>
