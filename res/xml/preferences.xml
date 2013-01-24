@@ -6,6 +6,7 @@
 		<CheckBoxPreference 
 			android:title="@string/pf_dfkey_active_vibrate_title"
 			android:key="pf_dfkey_active_vibrate"
+			android:layout="@layout/pf_custom"
 			android:summary="@string/pf_dfkey_active_vibrate_summary" />
 	</PreferenceCategory>
 </PreferenceScreen>
