@@ -5,6 +5,7 @@
     android:layout_height="wrap_content"
     android:minHeight="?android:attr/listPreferredItemHeight"
     android:gravity="center_vertical"
+    android:orientation="horizontal"
     android:paddingRight="?android:attr/scrollbarSize">
 	<!-- Start with this boilerplate example from Stackoverflow: http://stackoverflow.com/a/6194194/796514 -->
 	<!-- XXX TODO: Customize this further to get it down to exactly the look and feel needed -->
@@ -36,6 +37,9 @@
         <ImageView android:id="@+id/req_icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@android:id/widget_frame"
             android:src="@drawable/lock"
             android:layout_alignParentRight="true" />
 

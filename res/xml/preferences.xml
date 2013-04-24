@@ -2,7 +2,9 @@
 		xmlns:pf="http://schemas.android.com/apk/res/com.prefdroid"
 		android:title="@string/pf_prefs_label"
 		android:key="pf">
-	<PreferenceCategory android:title="@string/pf_prefs_category_label">
+	<PreferenceCategory 
+		android:title="@string/pf_prefs_category_label"
+		android:icon="@drawable/sliders">
 		<CheckBoxPreference 
 			android:title="@string/pf_dfkey_active_vibrate_title"
 			android:key="pf_dfkey_active_vibrate"
